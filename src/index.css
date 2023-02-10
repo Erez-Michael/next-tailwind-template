@@ -13,20 +13,21 @@
   html {
     @apply scroll-smooth
   }
-
+  
   body {
     @apply font-[Montserrat]
   }
-
+  
   li {
-    @apply p-4 text-sm   /* p = padding  4 = 1 rem = 16 px sm = small*/
+    @apply p-4 text-sm  
   }
-button {
-  @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)]
-}
 
-h2 {
-  @apply text-xl font-bold
-}
-
+  button {
+    @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)]
+  }
+  
+  h2 {
+    @apply text-xl font-bold
+  }
+  
 }
