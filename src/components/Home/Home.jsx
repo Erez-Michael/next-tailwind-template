@@ -4,6 +4,7 @@ import Hero from "../Hero";
 import NavBar from "../NavBar";
 import TopBar from "../TopBar";
 import HomeImages from "../HomeImages";
+import Parralax from "./Parralax";
 
 
 const Home=()=> {
@@ -11,8 +12,7 @@ const Home=()=> {
     <div >
       <TopBar/>
       <NavBar />
-          <Hero />
-          {/*Parralax */}
+          <Parralax />
       <HomeImages />
       <Footer/>
     </div>
